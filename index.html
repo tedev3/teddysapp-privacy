@@ -4,83 +4,135 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teddy's App — Privacy Policy</title>
+<meta name="description" content="What Teddy's App stores, who can see it, how it is protected, and the choices you have.">
 <style>
-  :root { color-scheme: light dark; }
-  body { margin:0 auto; padding:2.5rem 1.25rem 5rem; max-width:44rem;
-         font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-         color:#1c1a17; background:#fbf8f4; }
-  h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .5rem; }
-  h2 { font-size:1.2rem; margin:2.2rem 0 .6rem; }
-  p, li { margin:.7rem 0; }
-  ul { padding-left:1.2rem; }
-  a { color:#b4471f; }
-  em { color:#5d564e; font-style:italic; }
-  @media (prefers-color-scheme: dark) {
-    body { color:#ece7e0; background:#17150f; }
-    em { color:#a9a096; }
-    a { color:#e08a5f; }
+  :root {
+    --paper: #fbf8f4;
+    --ink: #1c1a17;
+    --ink-muted: #6b645b;
+    --line: #e4ddd2;
+    --ember: #b4471f;
   }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0 auto;
+    padding: 2.75rem 1.25rem 5rem;
+    max-width: 40rem;
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+  }
+  h1 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.35rem;
+  }
+  .meta { color: var(--ink-muted); font-size: 0.95rem; margin: 0 0 2rem; }
+  h2 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.45rem;
+    line-height: 1.25;
+    margin: 2.4rem 0 0.6rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 1.5rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin: 0.35rem 0; }
+  li::marker { color: var(--ink-muted); }
+  a { color: var(--ember); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  strong { font-weight: 600; }
+  .foot { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--line); color: var(--ink-muted); font-size: 0.95rem; }
 </style>
 </head>
 <body>
-<h1>Teddy&#x27;s App — Privacy Policy</h1>
-<p><em>Effective: 23 August 2026 · Contact: <a href="mailto:tedevereux@gmail.com">tedevereux@gmail.com</a></em></p>
-<p>Teddy&#x27;s App is a private memory-keeping app for family and close friends, built and operated by</p>
-<p>Tim Devereux. This policy explains what the app stores, who can see it, and the controls you</p>
-<p>have. It is written in plain English on purpose. It says the same things as the beta consent</p>
-<p>you agreed to when you joined the test.</p>
-<h2>What the app stores</h2>
-<p>Your photos and videos stay in your camera roll — the app works from imported copies, it never</p>
-<p>moves or deletes your originals.</p>
-<p>When you put something into a memory, it syncs to our private server (hosted with Supabase, on</p>
-<p>servers in Oregon, United States) so it can reach the people you choose to share with:</p>
+
+<h1>Teddy's App — Privacy Policy</h1>
+<p class="meta">Last updated 17 October 2026 · Teddy's App is built and operated by Tim Devereux · <a href="mailto:teddys.app.beta@gmail.com">teddys.app.beta@gmail.com</a></p>
+
+<p>This policy explains what Teddy's App is, what information it stores, who can see that information, how it is protected, and the choices you have. It is written in plain language.</p>
+
+<h2>What Teddy's App is</h2>
+
+<p>Teddy's App is a private memory-keeping app for family and close friends. I built it to capture Memories and tell the stories of my son Teddy's childhood, and it can hold any Memory that matters to you: a birthday, a trip, a special night out, the first day of school.</p>
+
+<p>The app is built around Moments and Memories. <strong>Moments</strong> are individual photos and videos from your phone, or notes and voice recordings you create in the app. <strong>Memories</strong> are collections of Moments arranged to tell the story of something you want to remember. You create your own Memories, and you share the ones you choose to, with the people you choose.</p>
+
+<p>Teddy's App is a closed circle, not social media. There is no public profile and no way for anyone to search for or discover you. The only people who can see a Memory of yours are people you have invited and then chosen to share that Memory with.</p>
+
+<h2>What the app stores, and where</h2>
+
+<p>When you add a photo or video to Teddy's App, the app makes its own copy of it. The original is not moved, changed or deleted; it stays where it was, in your camera roll or in your iCloud. The app's copy is made for the app: a photo is resized, and a video is kept at full quality on your phone and sent to the server at a smaller size. Neither copy carries the hidden information stored inside the original file, such as where the photo or video was taken or which device took it; the app keeps only the date, to place the Moment in time.</p>
+
+<p>The app's copies, and everything else you put into a Memory, are stored on a server I run, so that your Memories can reach the people you share them with and are still there if you move to a new phone. The server stores:</p>
 <ul>
-<li>photos, videos, voice recordings, and notes you add;</li>
-<li>titles, captions, dates, and place names you write;</li>
-<li>the people you add to your circle — names, relationships, and birthdates if you enter them   (including children&#x27;s, if you choose to);</li>
-<li>your Apple sign-in email address and display name;</li>
-<li>reactions and comments you leave;</li>
-<li>a push-notification token for your device, so the app can tell you when someone shares with you.</li>
+  <li>the photos, videos, voice recordings and notes you add to Memories;</li>
+  <li>the titles, captions, dates, place names and tags you give them;</li>
+  <li>the people in your circle, as you entered them: their name, their relationship to you, and their birthday if you chose to add one;</li>
+  <li>which people you have marked as appearing in which photos, if you do that;</li>
+  <li>the groups ("Circles") you create, and which Memories you have shared with which people;</li>
+  <li>the reactions and comments you leave on Memories;</li>
+  <li>the name and email address that Apple provides when you sign in with Apple;</li>
+  <li>a notification token for your phone, so the app can send you notifications;</li>
+  <li>the date and version of the privacy note you agreed to in the app.</li>
 </ul>
-<p><strong>Nothing is collected automatically.</strong> The app never reads your location (no GPS), never reads</p>
-<p>your contacts or address book, and contains no analytics, advertising, or tracking software of</p>
-<p>any kind. A place name on a memory is text you typed, nothing more.</p>
-<h2>Who can see what</h2>
-<p>Nothing you add is visible to anyone until you deliberately share that memory. Sharing is</p>
-<p>per-memory, to the specific people or groups you pick. There is no public content, no strangers,</p>
-<p>no algorithm, and no ads.</p>
-<p>**We never sell your information, never show you advertising, and never use your content to</p>
-<p>train AI or any other product.** Access rules are enforced in the database itself and are</p>
-<p>covered by an automated test suite.</p>
-<h2>The honest limit</h2>
-<p>Your data is encrypted on the way to the server and while it is stored there. But the app is</p>
-<p><strong>not end-to-end encrypted</strong> — in plain terms, the developer <em>could</em> technically access what is</p>
-<p>stored (this is true of most cloud apps), and would only ever do so to debug a problem, with</p>
-<p>your knowledge.</p>
-<h2>The people you add</h2>
-<p>You may add other people&#x27;s names, photos, and details to your memories. Please only do that</p>
-<p>with their OK — and for anything about a child, only if you are their parent or guardian, or</p>
-<p>have a parent&#x27;s OK. Nothing about the people you add is collected automatically; every detail</p>
-<p>is your explicit, optional entry.</p>
-<h2>Your controls</h2>
+
+<h2>What the app does not collect</h2>
+
+<p>The app does not collect anything on its own. It does not read your phone's location, your contacts or your address book, and it contains no analytics, advertising or tracking software. Every piece of information on the server is something you added or wrote yourself. One detail worth knowing: when you add a place to a Memory and start typing, the app suggests matching places using Apple Maps, so the words you type are sent to Apple to produce the suggestions. What is saved with the Memory is just the text you chose.</p>
+
+<h2>Who can see what you add</h2>
+
+<p>Nothing you add is visible to anyone until you share that Memory. Sharing is done one Memory at a time, to the specific people or Circles you pick, and you can stop sharing at any time. When you stop sharing a Memory, it disappears from the other person's app the next time their app refreshes, which it does each time it is opened. People you share with can see the Memory, react to it and comment on it, and their reactions and comments are visible to everyone that Memory is shared with. They can keep the Memory in their own Memories list while you share it; it remains yours, and it leaves their list if you stop sharing. If you make someone a contributor to a Memory, they can add their own Moments to it; what they add stays theirs, and either of you can remove it. People you are connected with can also see your name and your profile picture, as you can see theirs. They cannot see your other Memories, your circle, or anything else in your account.</p>
+
+<p>I do not sell your information, show you advertising, or use your photos or words to train AI or to build any other product. The rules about who can see what are enforced by the database itself, not only by the app, and an automated test suite checks them.</p>
+
+<h2>Encryption, and what I can see</h2>
+
+<p>Your information is encrypted while it travels to the server and while it is stored there. Right now, while the app is still in development, it is not end-to-end encrypted. That means that as the person who runs the server, I can technically see anything you upload, as the developer of almost any app can. I have no intention of viewing anything you have uploaded, except to fix a problem you have asked me to fix, or if you choose to share a Memory with me. To keep the service running I do look at technical information about it, such as whether the server is healthy, how much storage is in use, and when each account last connected, but not at anyone's photos or words.</p>
+
+<p>When the app is released in the App Store, all photos, videos, notes and voice recordings will be encrypted end to end, so that even I, or anyone who works on this project in the future, cannot see them. Until then, please only add and share what you would be happy sending in a family group text.</p>
+
+<h2>Information about other people, including children</h2>
+
+<p>The app lets you enter information about other people: the names, relationships and birthdays of the people in your circle, who appears in your photos, and of course the photos themselves. All of it is entered by you. The app does not look anyone up or gather anything about them on its own.</p>
+
+<p>Because you are the one adding that information, you are responsible for having the right to add it. For an adult, that means they are okay with it. For a child, that means you are their parent or guardian, or have a parent's permission. Teddy's App is for adults aged 18 and over; it holds information about a child only because a parent or guardian chose to add it.</p>
+
+<h2>Notifications</h2>
+
+<p>If you allow notifications, the app tells you about two things only: when someone shares a Memory with you, and when someone comments on a Memory of yours or one you have already commented on. Notifications are delivered through Apple's notification service. A notification contains the person's name and the title of the Memory, and nothing else: never the photo, never the words of the comment. You can turn notifications off at any time in your iPhone's Settings.</p>
+
+<h2>Your choices and controls</h2>
 <ul>
-<li><strong>Share on your terms.</strong> Sharing is always per-memory and can be undone.</li>
-<li><strong>Export anytime.</strong> From inside the app you can export your whole journal, or any single   memory, as ordinary folders of photos and text.</li>
-<li><strong>Delete account</strong> (in Profile) erases everything you stored on the server, including all   media files.</li>
-<li><strong>Leave anytime</strong> by deleting the app. For questions, problems, or &quot;please delete my stuff,&quot;   email <strong><a href="mailto:tedevereux@gmail.com">tedevereux@gmail.com</a></strong>.</li>
+  <li><strong>Sharing.</strong> You decide which Memories to share and with whom, and you can stop sharing any Memory at any time. You can also remove a person from your circle.</li>
+  <li><strong>Export.</strong> From inside the app you can export all of your Memories, or any single one, as ordinary folders of photos, videos and text.</li>
+  <li><strong>Delete your account.</strong> "Delete account" in Profile erases your account and everything stored for it on the server, including every photo, video and recording.</li>
+  <li><strong>Notifications.</strong> You can turn them off in your iPhone's Settings.</li>
+  <li><strong>Questions and requests.</strong> For anything else, including "please delete my information", email <a href="mailto:teddys.app.beta@gmail.com">teddys.app.beta@gmail.com</a>.</li>
 </ul>
-<h2>Where your data lives, and who processes it</h2>
-<p>Data is stored with Supabase (our hosting processor) on servers in the United States (Oregon).</p>
-<p>If you use the app from outside the US, your data is still stored in the US. Apple processes</p>
-<p>Sign in with Apple, and — during the beta — TestFlight, under Apple&#x27;s own terms (Apple shares</p>
-<p>crash logs and basic beta statistics with the developer). No other third party receives your data.</p>
-<h2>The beta</h2>
-<p>The current release is a closed test for invited testers aged 18 or over. The server is backed</p>
-<p>up daily, but keep your originals in your camera roll — the app holds copies and is not your</p>
-<p>only copy of anything. If the beta ends, you will be told, and server data will be deleted</p>
-<p>unless you continue.</p>
-<h2>Changes</h2>
-<p>If this policy changes in any meaningful way, this page will be updated and testers will be</p>
-<p>told directly.</p>
+
+<h2>Where your data is stored, and who processes it</h2>
+
+<p>The server is hosted with Supabase, on computers located in Oregon, in the United States. If you use the app from outside the United States, your data is still stored in the United States. The server is backed up every day; backups are kept for about a week and then replaced.</p>
+
+<p>Apple provides Sign in with Apple, delivers notifications, and provides the place-name suggestions described above. During the test period Apple also provides TestFlight, and shares crash reports and basic statistics about the test with me. Apple handles those services under its own terms. No other company receives your data.</p>
+
+<h2>During the test</h2>
+
+<p>Teddy's App is currently in a closed test for invited people aged 18 and over. During the test, please keep your camera roll as your main copy of everything: the app holds copies and should not be your only copy of anything. If the test ends, I will tell you, and the data on the server will be deleted unless you choose to continue with the app.</p>
+
+<h2>Changes to this policy</h2>
+
+<p>If this policy changes in a way that matters, this page will be updated, the app will ask you to read the new version before you continue, and I will tell you directly.</p>
+
+<p class="foot">Teddy's App is built and operated by Tim Devereux. Questions: <a href="mailto:teddys.app.beta@gmail.com">teddys.app.beta@gmail.com</a>. This page was last updated on 17 October 2026.</p>
+
 </body>
 </html>
